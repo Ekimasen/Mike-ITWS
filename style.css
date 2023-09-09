@@ -82,3 +82,6 @@ html, body{
     .card h2{
         padding-left: 10px;
     }
+    .img2{
+    max-width: 100%;
+}
