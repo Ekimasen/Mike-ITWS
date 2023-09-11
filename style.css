@@ -92,9 +92,11 @@ html, body{
     justify-content: center;
 }
 .card2 {
-    background-color: rgba(244,211,255,0.5);
+    background-color: rgba(103,67,154,0.5);
     width: 180px;
-    border-radius: 5%;rgb()
+    border-radius: 5%;
+    margin: 20px;
+
 }
 .card2 img{
     height: 300px;
