@@ -1,7 +1,7 @@
 html, body{
     font-family: ('Times New Roman');
     margin: 0;
-    background-color: rgb(227, 223, 231);
+    background-color: rgb(120,142,191);
     }
     header{
     background: url('3.jpg') ;
@@ -32,6 +32,8 @@ html, body{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
+    text-align: justify;
+    font-size: 17px;
     }
     img.big-image{
     
@@ -65,10 +67,15 @@ html, body{
     margin: 0 5px;
     }
     .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
         transition: 0.3s;
-        width:45%;
-        height: 250px ;
+        width:90%;
+        height: 280px ;
+        padding-right: 10px;
+        border-radius: 10px;
+        background: transparent;
+        border-style: solid;
+        border-color: rgb(103,67,154);
       }
     .container{
         display: flex;
@@ -90,12 +97,15 @@ html, body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 .card2 {
-    background-color: rgba(103,67,154,0.5);
+    background-color: rgba(25, 21, 137, 0.411);
     width: 180px;
     border-radius: 5%;
     margin: 20px;
+    border-style: solid;
+    border-color: rgb(103,67,154);
 
 }
 .card2 img{
