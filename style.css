@@ -54,7 +54,7 @@ html, body{
     margin: 0;
     }
     a{
-    color: red;
+    color: rgb(237,149,236);
     text-decoration: none;
     }
     .container ul li {
@@ -69,7 +69,7 @@ html, body{
     footer{
     margin-top: 10px;
     padding: 20px 20px;
-    background-color: #E6E6E6;
+    background-color: rgb(253,224,255);
     }
     footer ul{
     text-align: center;
@@ -81,7 +81,7 @@ html, body{
         margin-top: 10px;
     }
     .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+        box-shadow: 7px 7px 0 0 rgba(10, 46, 227, 0.4);
         transition: 0.3s;
         width:90%;
         height: 365px ;
@@ -90,12 +90,14 @@ html, body{
         background: transparent;
         border-style: solid;
         border-color: rgb(10,47,227);
+        
       }
     .container{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding-top: 50px;
+        
     }
     .card p{
         padding-left: 13px;
@@ -106,6 +108,7 @@ html, body{
     }
     .img2{
     max-width: 100%;
+    filter: drop-shadow(7px 7px 5px);
 }
 .container2{
     display: flex;
@@ -121,6 +124,7 @@ html, body{
     margin: 20px;
     border-style: solid;
     border-color: rgb(213,111,212);
+    filter: drop-shadow(7px 7px 5px rgb(213,111,212) );
 
 }
 .card2 img{
@@ -142,5 +146,34 @@ a img{
     width: 40px;
 }
 a img:hover{
+    filter: grayscale(0%);
+}
+.card2 p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.p1 {
+    color: rgb(226, 7, 255);
+    filter: grayscale(100%);
+}
+.p1:hover{
+    filter: grayscale(0%);
+}
+
+.p2 {
+    color: rgb(255, 187, 2);
+    filter: grayscale(100%);
+}
+.p2:hover{
+    filter: grayscale(0%);
+}
+
+.p3{
+    color: rgb(46,200,219);
+    filter: grayscale(100%);
+}
+.p3:hover{
     filter: grayscale(0%);
 }
