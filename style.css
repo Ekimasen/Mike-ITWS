@@ -19,6 +19,8 @@ html, body{
     padding-left: 330px;
     text-align: left;
     text-shadow: 2px 2px 5px rgb(197, 79, 195);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     }
     header img{
     border-radius: 174px;
@@ -34,7 +36,7 @@ html, body{
     margin: 0 auto;
     padding: 0 20px;
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
     color: rgb(237,149,236);
     }
     img.big-image{
@@ -55,24 +57,34 @@ html, body{
     color: red;
     text-decoration: none;
     }
-    
+    .container ul li {
+            list-style: none;
+            padding: 10px 30px;
+            background-image: url(8.jpg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 20px;
+            margin-left: 20px;
+        }
     footer{
-    margin-top: 20px;
-    padding: 40px 20px;
+    margin-top: 10px;
+    padding: 20px 20px;
     background-color: #E6E6E6;
     }
     footer ul{
     text-align: center;
     }
     footer ul li{
-    display: inline-block;
     margin: 0 5px;
+    }
+    footer img{
+        margin-top: 10px;
     }
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
         transition: 0.3s;
         width:90%;
-        height: 280px ;
+        height: 365px ;
         padding-right: 10px;
         border-radius: 10px;
         background: transparent;
@@ -87,6 +99,7 @@ html, body{
     }
     .card p{
         padding-left: 13px;
+        text-indent: 40px;
     }
     .card h2{
         padding-left: 10px;
@@ -119,4 +132,15 @@ html, body{
 .card2:hover img{
     filter: grayscale(0%);
     transform: scale(1.1);
+}
+
+
+
+a img{
+    filter: grayscale(100%);
+    height: 40px;
+    width: 40px;
+}
+a img:hover{
+    filter: grayscale(0%);
 }
