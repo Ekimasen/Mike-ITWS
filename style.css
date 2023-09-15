@@ -84,7 +84,7 @@ html, body{
         box-shadow: 7px 7px 0 0 rgba(10, 46, 227, 0.4);
         transition: 0.3s;
         width:90%;
-        height: 365px ;
+        height: 390px ;
         padding-right: 10px;
         border-radius: 10px;
         background: transparent;
@@ -171,7 +171,7 @@ a img:hover{
 }
 
 .p3{
-    color: rgb(46,200,219);
+    color: rgb(255, 187, 2);
     filter: grayscale(100%);
 }
 .p3:hover{
