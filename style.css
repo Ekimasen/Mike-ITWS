@@ -156,7 +156,7 @@ a img:hover{
 }
 .p1 {
     color: rgb(226, 7, 255);
-    filter: grayscale(90%);
+    filter: grayscale(100%);
 }
 .p1:hover{
     filter: grayscale(0%);
