@@ -127,6 +127,9 @@ html, body{
     filter: drop-shadow(7px 7px 5px rgb(213,111,212) );
 
 }
+.card2:hover{
+    transform: scale(1.1);
+}
 .card2 img{
     height: 300px;
     width: 177px;
@@ -156,24 +159,12 @@ a img:hover{
 }
 .p1 {
     color: rgb(226, 7, 255);
-    filter: grayscale(100%);
-}
-.p1:hover{
-    filter: grayscale(0%);
 }
 
 .p2 {
     color: rgb(255, 187, 2);
-    filter: grayscale(100%);
-}
-.p2:hover{
-    filter: grayscale(0%);
 }
 
 .p3{
     color: rgb(255, 187, 2);
-    filter: grayscale(100%);
-}
-.p3:hover{
-    filter: grayscale(0%);
 }
